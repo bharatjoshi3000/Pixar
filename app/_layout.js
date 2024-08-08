@@ -1,13 +1,13 @@
 import { View, Text } from "react-native";
 import React from "react";
 import { Stack } from "expo-router";
-// import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
-// import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const Layout = () => {
   return (
-    // <GestureHandlerRootView style={{ flex: 1 }}>
-    //   <BottomSheetModalProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <BottomSheetModalProvider>
         <Stack>
           <Stack.Screen
             name="index"
@@ -30,8 +30,8 @@ const Layout = () => {
             }}
           />
         </Stack>
-    //   {/* </BottomSheetModalProvider>
-    // </GestureHandlerRootView> */}
+      </BottomSheetModalProvider>
+    </GestureHandlerRootView>
   );
 };
 

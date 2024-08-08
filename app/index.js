@@ -17,7 +17,7 @@ const WelcomeScreen = () => {
         style={styles.bgImage}
         resizeMode="cover"
       />
-      {/* linear gragient */}
+      {/* linear gradient */}
       <Animated.View entering={FadeInDown.duration(600)} style={{ flex: 1 }}>
         <LinearGradient
           colors={[
