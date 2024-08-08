@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "45332295-5769baa8413b262b438c947c8"; // Enter your pixabay api key here ( this is not a valid one )
+const API_KEY = ""; // Enter your pixabay api key here ( this is not a valid one )
 
 const apiUrl = `https://pixabay.com/api/?key=${API_KEY}`;
 
